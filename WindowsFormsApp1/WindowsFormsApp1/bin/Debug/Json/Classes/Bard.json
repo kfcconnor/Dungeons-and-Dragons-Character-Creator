@@ -1,0 +1,67 @@
+{
+  "className": "Bard",
+  "description": "An inspiring magician whose power echoes the music of creation.",
+  "magicUser": true,
+  "hitdice": "d8",
+  "armourProf": [
+    "Light Armour"
+  ],
+  "weaponProf": [
+    "Simple Weapons",
+    "Hand Crossbows",
+    "Longswords",
+    "Rapier",
+    "Shortswords"
+  ],
+  "toolProf": [
+    "Three Musical Instruments of your choice"
+  ],
+  "savingProf": [
+    "Dexterity",
+    "Charisma"
+  ],
+  "skillChoices": 3,
+  "skillsToChoose": [
+    "Acrobatics",
+    "Animal Handling",
+    "Arcana",
+    "Athletics",
+    "Deception",
+    "History",
+    "Insight",
+    "Intimidation",
+    "Investigation",
+    "Medicine",
+    "Nature",
+    "Perception",
+    "Performance",
+    "Persuasion",
+    "Religion",
+    "Sleight of Hand",
+    "Stealth",
+    "Survival"
+  ],
+  "EquipmentChoice1": [
+    "Rapier",
+    "Longsword",
+    "Any Simple Weapon"
+  ],
+  "EquipmentChoice2": [
+    "Diplomat's Pack",
+    "Entertainer's Pack"
+  ],
+  "EquipmentChoice3": [
+    "Lute",
+    "Any Other Musical Instrument"
+  ],
+  "EquipmentChoice4": [],
+  "otherEquipment": [
+    "Leather Armour",
+    "Dagger"
+  ],
+  "startingClassAbilities": [],
+  "Subclass": [
+    "College of Lore",
+    "College of Valour"
+  ]
+}

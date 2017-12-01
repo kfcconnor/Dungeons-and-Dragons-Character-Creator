@@ -1,0 +1,147 @@
+{
+  "Abilities": [
+    {
+      "Name": "Divine Sense",
+      "Class": "Paladin",
+      "Level": 1,
+      "Description": "As an action, you can know the location of any celestial, fiend or undead within 60ft of you that is not behind total cover. You know the type of any whose presence you sence, but not its identity. You can use this feature a number of times equal to 1 + your Cha Mod. When you finish a long rest you regain all expended uses.",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    },
+    {
+      "Name": "Lay on Hands",
+      "Class": "Paladin",
+      "Level": 1,
+      "Description": "Your touch can heal wounds. You have a pool of healing power that replenishes when you take long rest. With that pool you can restore a total number of hit points equal to your paladin level x 5. As an action you can touch a creature and draw power from the pool to restore a number of hit points to that creature, up to maximum amount remeaining in your pool. Alternatively, you can expend 5 hit points to cure the target of one disease or neutralize one poison affecting it (You can do multiple if you spend 5hp from the pool for each disease or poison.)",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    } ,
+    {
+      "Name": "Fighting Style",
+      "Class": "Paladin",
+      "Level": 2,
+      "Description": "You can pick a fighting style.",
+      "SubclassChoice": false,
+      "fightingStyleChoice": true,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    },
+    {
+      "Name": "Spellcasting (Paladin)",
+      "Class": "Paladin",
+      "Level": 2,
+      "Description": "You can select a number of spells equal to your cha mod + half your paladin level, rounded down from the paladin spell list. They must be of a level you can use and you can change them each morning. Your spellcasting ability is Charisma",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    },
+    {
+      "Name": "Divine Smite",
+      "Class": "Paladin",
+      "Level": 2,
+      "Description": "Starting at 2nd level, when you hit a creature with a melee weapon attakc, you can expend one paladin spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is 2d8 for a 1st level spell slot, plus 1d8 for each spell level higher then 1st, to a max of 5d8. The damage increases by 1d8 if the target is an undead or a fiend.",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    },
+    {
+      "Name": "Divine Health",
+      "Class": "Paladin",
+      "Level": 3,
+      "Description": "You are immune to disease",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    },
+    {
+      "Name": "Sacred Oath",
+      "Class": "Paladin",
+      "Level": 3,
+      "Description": "You can pick a subclass.",
+      "SubclassChoice": true,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    },
+    {
+      "Name": "Ability Score Improvement",
+      "Class": "Paladin",
+      "Level": 4,
+      "Description": "You can increase one ability score of your choice by 2, or two by 1. You cannot raise an attribute over 20 by doing this. You can also forfeit this to gain a feat.",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": true,
+      "upgraderepeatLevels": [8, 12, 16, 19],
+      "upgraderepeatNotes": "Repeat"
+    },
+    {
+      "Name": "Extra Attack",
+      "Class": "Paladin",
+      "Level": 5,
+      "Description": "",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    },
+    {
+      "Name": "Aura of Protection",
+      "Class": "Paladin",
+      "Level": 6,
+      "Description": "Whenever you or a friendly creature within 10ft of you must make a saving throw, the creature gains a bonus to the saving throw equal to your Cha mod (Min Bonus of +1). You must be conscious to grant this bonus. At 18th level, the range of this aura increases to 30ft",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": true,
+      "upgraderepeatLevels": [18],
+      "upgraderepeatNotes": "Upgrade"
+    },
+    {
+      "Name": "Aura of Courage",
+      "Class": "Paladin",
+      "Level": 10,
+      "Description": "You and other friendly creatures within 10ft of you can't be frightened while you are conscious. At 18th level, the range of this aura increases to 30ft",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": true,
+      "upgraderepeatLevels": [18],
+      "upgraderepeatNotes": "Upgrade"
+    },
+    {
+      "Name": "Improved Divine Smite",
+      "Class": "Paladin",
+      "Level": 11,
+      "Description": "Whenever you hit a creature with a melee weapon, the creature takes an extra 1d8, if you use divine smite with an attack, add this to the extra damage of the divine smite.",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    },
+    {
+      "Name": "Cleansing Touch",
+      "Class": "Paladin",
+      "Level": 14,
+      "Description": "You can use your action to end one spell on yourself or on one willing creature that you touch. You can use this feature a number of times equal to your Cha Mod (Min of once) per long rest.",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    }
+  ]
+}

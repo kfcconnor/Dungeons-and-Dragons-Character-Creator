@@ -1,0 +1,92 @@
+{
+  "Abilities": [
+    {
+      "Name": "Druidic",
+      "Class": "Druid",
+      "Level": 1,
+      "Description": "You know Druidic, the secret language of druids. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message.",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    },
+    {
+      "Name": "Spellcasting (Druid)",
+      "Class": "Druid",
+      "Level": 1,
+      "Description": "Druids Gain 2 cantrips of their choice from the druid spell list. They can also prepare a number of spells per day equal to your wisdom modifier + your druid level (Min of one) These spells must be of a level for which you have spell slots. You start with 2 1st level spell slots. Your spellcasting ability is Wisdom.",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    },
+    {
+      "Name": "Wild Shape",
+      "Class": "Druid",
+      "Level": 2,
+      "Description": "You can use your action to magically assume the shape of a beast you have seen before. You can use this feature twice per short or long rest. You remain in the form for a number of hours equal to half your druid level (Rounded Down) before reverting unless you use another use of Wild shape. At first the creature you transform into has a max CR of 1/4, no flying speed or swimming speed. At 4th it's max CR becomes 1/2 and the creature can have a swimming speed and at 8th level it's max CR becomes 1 and you can have a flying speed. \nWhile in the form of a creature your stats are replaced with the stats of the beast but you keep your alignment, personality and int, wis and char scores. You also keep skill and saving throw proficiencies as well as gaining the creatures. \nYou also get it's hp over your own with any excess damage when your form drops to 0 transfering to your hp and turning you back. You also cannot cast spells and your ability to speak or take any action that requires hands is limited to the capabilities of your beast form.",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": true,
+      "upgraderepeatLevels": [4, 8],
+      "upgraderepeatNotes": "Upgrade"
+    },
+    {
+      "Name": "Druid Circle",
+      "Class": "Druid",
+      "Level": 2,
+      "Description": "You can choose your subclass",
+      "SubclassChoice": true,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    },
+    {
+      "Name": "Ability Score Improvement",
+      "Class": "Druid",
+      "Level": 4,
+      "Description": "You can increase one ability score of your choice by 2, or two by 1. You cannot raise an attribute over 20 by doing this. You can also forfeit this to gain a feat.",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": true,
+      "upgraderepeatLevels": [8, 12, 16],
+      "upgraderepeatNotes": "Repeat"
+    },
+    {
+      "Name": "Timeless Body",
+      "Class": "Druid",
+      "Level": 18,
+      "Description": "You age more slowly. For every 10 years that pass, your body ages only 1 year.",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    },
+    {
+      "Name": "Beast Spells",
+      "Class": "Druid",
+      "Level": 18,
+      "Description": "You can cast many of your druid spells in any shape you assume using wild shape. You can perform the somatic and verbal components of a druid spell but are unable to provide material components.",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    },
+    {
+      "Name": "Archdruid",
+      "Class": "Druid",
+      "Level": 20,
+      "Description": "You can use Wild Shape an unlimited number of times",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    }
+  ]
+}

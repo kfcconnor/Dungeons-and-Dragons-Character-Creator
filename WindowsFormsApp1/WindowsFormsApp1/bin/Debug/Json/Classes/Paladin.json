@@ -1,0 +1,52 @@
+{
+  "className": "Paladin",
+  "description": "A holy warrior bound to a sacred oath.",
+  "magicUser": true,
+  "hitdice": "d10",
+  "armourProf": [
+    "All Armour",
+    "Shields"
+  ],
+  "weaponProf": [
+    "Simple Weapons",
+    "Martial Weapons"
+  ],
+  "toolProf": [],
+  "savingProf": [
+    "Wisdom",
+    "Charisma"
+  ],
+  "skillChoices": 2,
+  "skillsToChoose": [
+    "Athletics",
+    "Insight",
+    "Intimidation",
+    "Medicine",
+    "Persuasion",
+    "Religion"
+  ],
+  "EquipmentChoice1": [
+    "Martial Weapon and Shield",
+    "Two Martial Weapons"
+  ],
+  "EquipmentChoice2": [
+    "Five Javelins",
+    "Any Simple Melee Weapon"
+  ],
+  "EquipmentChoice3": [
+    "Priest's Pack",
+    "Explorer's Pack"
+  ],
+  "EquipmentChoice4": [
+  ],
+  "otherEquipment": [
+    "Chain Mail",
+    "Holy Symbol"
+  ],
+  "startingClassAbilities": [],
+  "Subclass": [
+    "Oath of Devotion",
+    "Oath of the Ancients",
+    "Oath of Vengeance"
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "Abilities": [
+    {
+      "Name": "Spellcasting (Bard)",
+      "Class": "Bard",
+      "Level": 1,
+      "Description": "Bards gain 2 cantrips of their choice from the bard spell list. You also gain 4 1st level spells from the bard list and have 2 spell slots of the 1st level. Charisma is your spellcasting ability for bard spells",
+      "SubclassChoice": false,
+      "fightingStyleChoice" : false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels":[],
+      "upgraderepeatNotes":"NA"
+    },
+    {
+      "Name": "Baridic Inspiration",
+      "Class": "Bard",
+      "Level": 1,
+      "Description": "You can use a bonus action to give a creature other than yourself within 60ft who can hear you. You grant them a d6 they can use for one ability check, attack roll, or saving throw it makes within the next 10 minutes. Can be used a number of times equal to your Charisma Modifier (Min once) per long rest. The dice becomes a d8 at 5th level, a d10 at 10th, and a d12 at 15th",
+      "SubclassChoice": false,
+      "fightingStyleChoice" : false,
+      "upgradesrepeatAtHigherLevel": true,
+      "upgraderepeatLevels":[5, 10, 15],
+      "upgraderepeatNotes":"NA"
+    },
+    {
+    "Name": "Jack of All Trades",
+      "Class": "Bard",
+      "Level": 2,
+      "Description": "You can add half your proficiency bonus, rounded down, to any ability check you make that doesn't already include your proficiency",
+      "SubclassChoice": false,
+      "fightingStyleChoice" : false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels":[],
+      "upgraderepeatNotes":"NA"
+    },
+    {
+      "Name": "Song Of Rest",
+      "Class": "Bard",
+      "Level": 2,
+      "Description": "You can use soothing music or oration to help revitalise your wounded allies during a short rest. If you or any friendly creatures who can hear your performance regain hit points at the end of a short rest, they gain an extra 1d6. This becomes 1d8 at 9th level, 1d10 at 13th level, and 1d12 at 17th level.",
+      "SubclassChoice": false,
+      "fightingStyleChoice" : false,
+      "upgradesrepeatAtHigherLevel": true,
+      "upgraderepeatLevels":[9, 13, 17],
+      "upgraderepeatNotes":"Upgrade"
+    },
+    {
+      "Name": "Bard College",
+      "Class": "Bard",
+      "Level": 3,
+      "Description": "You can choose your subclass",
+      "SubclassChoice": true,
+      "fightingStyleChoice" : false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels":[],
+      "upgraderepeatNotes":"NA"
+    },
+    {
+      "Name": "Expertise",
+      "Class": "Bard",
+      "Level": 3,
+      "Description": "Choose two of your skill proficiences. Your proficiency bonus is doubled for any ability check you make using either of these skills.",
+      "SubclassChoice": false,
+      "fightingStyleChoice" : false,
+      "upgradesrepeatAtHigherLevel": true,
+      "upgraderepeatLevels":[10],
+      "upgraderepeatNotes":"Repeat"
+    },
+    {
+      "Name": "Ability Score Improvement",
+      "Class": "Bard",
+      "Level": 4,
+      "Description": "Gain 2 ability score points to spend. Cannot raise a single ability over 20. Can forfeit for a feat.",
+      "SubclassChoice": false,
+      "fightingStyleChoice" : false,
+      "upgradesrepeatAtHigherLevel": true,
+      "upgraderepeatLevels":[8, 12, 16],
+      "upgraderepeatNotes":"Repeat"
+    },
+    {
+      "Name": "Font of Inspiration",
+      "Class": "Bard",
+      "Level": 5,
+      "Description": "Regain all your expended uses of Bardic Inspiration when you finish a short or long rest.",
+      "SubclassChoice": false,
+      "fightingStyleChoice" : false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels":[],
+      "upgraderepeatNotes":"NA"
+    },
+    {
+      "Name": "Countercharm",
+      "Class": "Bard",
+      "Level": 6,
+      "Description": "During your turn you can start a performance that lasts until the end of your next turn. During that time, you and any friendly creatures within 30ft of you have advantage on saving throws against being frightened or charmed. A creature must be able to hear you to gain this benefit. The performance ends early if you are incapacitated or silenced or if you end it yourself (No Action required).",
+      "SubclassChoice": false,
+      "fightingStyleChoice" : false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels":[],
+      "upgraderepeatNotes":"NA"
+    },
+    {
+      "Name": "Magical Secret",
+      "Class": "Bard",
+      "Level": 10,
+      "Description": "Choose two spells from any class, including this one. They must be of a level you can cast or a cantrip. They count as bard spells for you.",
+      "SubclassChoice": false,
+      "fightingStyleChoice" : false,
+      "upgradesrepeatAtHigherLevel": true,
+      "upgraderepeatLevels":[14, 18],
+      "upgraderepeatNotes":"Repeat"
+    },
+    {
+      "Name": "Superior Inspiration",
+      "Class": "Bard",
+      "Level": 20,
+      "Description": "When you roll initiative and have no uses of Bardic Inspiration left, you regain one use.",
+      "SubclassChoice": false,
+      "fightingStyleChoice" : false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels":[],
+      "upgraderepeatNotes":"NA"
+    }
+  ]
+}

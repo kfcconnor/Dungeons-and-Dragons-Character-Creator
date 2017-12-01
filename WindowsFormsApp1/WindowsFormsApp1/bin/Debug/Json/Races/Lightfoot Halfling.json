@@ -1,0 +1,23 @@
+{
+  "raceName": "Lightfoot Halfling",
+  "Description": "Affable and kind, Lightfoot halflings can easily hide from notice, even using other people as cover. They are also much more prone to wonderlust",
+  "raceBonuses": [
+    0,
+    2,
+    0,
+    0,
+    0,
+    1
+  ],
+  "bonusNotes": "",
+  "size": "Medium",
+  "speed": 25,
+  "speedNotes": "",
+  "Vision": "Standard: Need a Torch or magic to see in the Dark",
+  "raceAbilities": [
+    "Lucky: When you roll a 1 on an attack roll, ability check, or saving throw. You can reroll the die and must use the new roll.",
+    "Brace: You have advantage on saving throws against being frightened",
+    "Halfling Nimbleness: You can move through the space of any creature that is of a size larger then yours.",
+    "Naturally Stealthy: You can attempt to hide even when you are obscured only by a creature that is at least one size larger then you."
+  ]
+}

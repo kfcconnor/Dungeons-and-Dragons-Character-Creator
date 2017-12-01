@@ -1,0 +1,213 @@
+{
+  "Abilities": [
+    {
+      "Name": "Unarmoured Defence",
+      "Class": "Monk",
+      "Level": 1,
+      "Description": "While you are wearing no armour and not wielding a shield, your AC equals 10 + Dex Mod + Wis Mod",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    },
+    {
+      "Name": "Martial Arts",
+      "Class": "Monk",
+      "Level": 1,
+      "Description": "You gain the following benefits while unarmed or wielding only monk weapons and aren't wearing armour or wielding a shield: \nYou can use Dex instead of Strength for the attack and damage rolls of your unarmed strikes and monk weapons.\nYou can roll a d4 in place of the normal damage of your unarmed strikes or monk weapon. This die changes as you gain monk levels.\nWhen you use the Attack Action with an unarmed attack or monk weapon on your turn. You can make one unarmed strike as a bonus action.",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    },
+    {
+      "Name": "Ki",
+      "Class": "Monk",
+      "Level": 2,
+      "Description": "Your training allows you to harness the mystic energy of Ki. This is represented b Ki points. You can spend these to carry out Flurry of Blows, Patient Defence and step of the wind. You learn more as you level up. You gain them back after a short or long rest provided you spend 30 minutes of the rest meditating to regain your ki points. If it requires a saving throw the DC is 8 + Prof Bonus + Wis Mod",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    },
+    {
+      "Name": "Unarmoured Movement",
+      "Class": "Monk",
+      "Level": 2,
+      "Description": "Your speed increases by 10ft when you are not wearing armour or wielding a shield. This bonus increases when you reach certain Monk Levels. At 9th level, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during the move.",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": true,
+      "upgraderepeatLevels": [9],
+      "upgraderepeatNotes": "Upgrade"
+    },
+    {
+      "Name": "Monastic Tradition",
+      "Class": "Monk",
+      "Level": 3,
+      "Description": "You can choose a subclass",
+      "SubclassChoice": true,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    },
+    {
+      "Name": "Deflect Missiles",
+      "Class": "Monk",
+      "Level": 3,
+      "Description": "You can use your reaction to reduce the damage from an attack by 1d10 + dex mod + Monk level. If you reduce the damage to 0 you can catch the missile if you have a hand free. You can also use a ki point to make a ranged attack with that weapon, with proficiency and it counts as a monk weapon for the attack.",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    },
+    {
+      "Name": "Ability Score Improvement",
+      "Class": "Monk",
+      "Level": 4,
+      "Description": "You can increase one ability score of your choice by 2, or two by 1. You cannot raise an attribute over 20 by doing this. You can also forfeit this to gain a feat.",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": true,
+      "upgraderepeatLevels": [8, 12, 16, 19],
+      "upgraderepeatNotes": "Repeat"
+    },
+    {
+      "Name": "Slow Fall",
+      "Class": "Monk",
+      "Level": 4,
+      "Description": "You can use your reaction when you fall, to reduce any falling damage you take by an amount equal to five times your monk level.",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    },
+    {
+      "Name": "Extra Attack",
+      "Class": "Monk",
+      "Level": 5,
+      "Description": "You can attack twice when using the attack action",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    },
+    {
+      "Name": "Stunning Strike",
+      "Class": "Monk",
+      "Level": 5,
+      "Description": "When you hit another creature with a melee weapon attack, you can spend 1 ki point to attempt a stunning strike. The target must succeed on a Con Save or be stunned until the end of your next turn.",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    },
+    {
+      "Name": "Ki-Empowered Strikes",
+      "Class": "Monk",
+      "Level": 6,
+      "Description": "Your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    },
+    {
+      "Name": "Evasion",
+      "Class": "Monk",
+      "Level": 7,
+      "Description": "When you are subjected to an effect that allows you to make a dex save to take only have damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    },
+    {
+      "Name": "Stillness of Mind",
+      "Class": "Monk",
+      "Level": 7,
+      "Description": "You can use your action to end one effect on yourself that is causing you to be charmed or frightened.",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    },
+    {
+      "Name": "Purity of Body",
+      "Class": "Monk",
+      "Level": 10,
+      "Description": "Your mastery of the ki flowing through you makes you immune to disease and poison",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    },
+    {
+      "Name": "Tongue of the Sun and Moon",
+      "Class": "Monk",
+      "Level": 13,
+      "Description": "You learn to touch the ki of other minds so that you understand all spoken languages. Moreover, any creature that can understand a language can understand what you say.",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    },
+    {
+      "Name": "Diamond Soul",
+      "Class": "Monk",
+      "Level": 14,
+      "Description": "Your mastery of ki grants you proficiency in all saving throws. Additionally, whenever you make a saving throw and fail. You can spend 1 ki point to reroll and take the second result.",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    },
+    {
+      "Name": "Timeless Body",
+      "Class": "Monk",
+      "Level": 15,
+      "Description": "Your ki sustains you so that you suffer none of the frailty of old age, and you can't be aged magically. You can still die of old age. In addition, you no longer need food or water",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    },
+    {
+      "Name": "Empty Body",
+      "Class": "Monk",
+      "Level": 18,
+      "Description": "You can spend 4 ki points to become invisible for 1 minute. During that time, you also have resistance to all damage but force damage. In Addition, you can spend 8 ki points to cast the astral projection spell, without needing material components. When you do so, you can't take any other creatures with you.",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    },
+    {
+      "Name": "Perfect Self",
+      "Class": "Monk",
+      "Level": 20,
+      "Description": "When you roll initiative and have no ki points remaining, you regain 4 ki points.",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    }
+  ]
+}

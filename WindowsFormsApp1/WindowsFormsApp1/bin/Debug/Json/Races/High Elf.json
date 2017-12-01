@@ -1,0 +1,25 @@
+{
+  "raceName": "High Elf",
+  "Description": "Those of keen mind and a mastery of at least the basics of magic, there are two kinds of high elves in the world, one reclusive and believing themselves to be superior, the other friendly and encountered more commonly.",
+  "raceBonuses": [
+    0,
+    2,
+    0,
+    1,
+    0,
+    0
+  ],
+  "bonusNotes": "",
+  "size": "Medium",
+  "speed": 30,
+  "speedNotes": "",
+  "Vision": "Darkvision: Can see in dim light within 60ft as if it was blight light, and darkness as if it was dim light",
+  "raceAbilities": [
+    "Keen Senses: You have Proficiency in the Perception Skill.",
+    "Fey Ancestry: You have advantage on saving throws against being charmed, and magic can't put you to sleep.",
+    "Trance: Elves don't need to sleep. Instead they meditate deeply, remaining semiconscious, for 4 hours a day. While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in such a way, you gain the same benefit that a human does from 8 hours sleep.",
+    "Elf Weapon Training: You have proficiency with the longsword, shortsword, shortbow, and longbow.",
+    "Cantrip: You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability.",
+    "Extra Language: You can speak, read, and write one extra language of your choice."
+  ]
+}

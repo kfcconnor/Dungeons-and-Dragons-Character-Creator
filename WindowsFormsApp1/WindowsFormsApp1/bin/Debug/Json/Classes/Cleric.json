@@ -1,0 +1,59 @@
+{
+  "className": "Cleric",
+  "description": "A priestly champion who wields divine magic in service of a higher power.",
+  "magicUser": true,
+  "hitdice": "d8",
+  "armourProf": [
+    "Light Armour",
+    "Medium Armour",
+    "Shields"
+  ],
+  "weaponProf": [
+    "Simple Weapons"
+  ],
+  "toolProf": [],
+  "savingProf": [
+    "Wisdom",
+    "Charisma"
+  ],
+  "skillChoices": 2,
+  "skillsToChoose": [
+    "History",
+    "Insight",
+    "Medicine",
+    "Persuasion",
+    "Religion"
+  ],
+  "EquipmentChoice1": [
+    "Any Simple Weapon",
+    "Mace",
+    "Warhammer (If Proficient)"
+  ],
+  "EquipmentChoice2": [
+    "Scale Mail",
+    "Leather Armour",
+    "Chain Mail (If Proficient)"
+  ],
+  "EquipmentChoice3": [
+    "Light Crossbow with 20 bolts",
+    "Any Simple Weapon"
+  ],
+  "EquipmentChoice4": [
+    "Priest's Pack",
+    "Explorer's Pack"
+  ],
+  "otherEquipment": [
+    "Shield",
+    "Holy Symbol"
+  ],
+  "startingClassAbilities": [],
+  "Subclass": [
+    "Knowledge",
+    "Life",
+    "Light",
+    "Nature",
+    "Tempest",
+    "Trickery",
+    "War"
+  ]
+}

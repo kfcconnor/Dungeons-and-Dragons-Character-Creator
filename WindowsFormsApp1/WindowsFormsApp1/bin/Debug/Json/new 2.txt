@@ -1,0 +1,6 @@
+{
+      "Name": "",
+      "Class": "Bard",
+      "Level": ,
+      "Description": ""
+    },

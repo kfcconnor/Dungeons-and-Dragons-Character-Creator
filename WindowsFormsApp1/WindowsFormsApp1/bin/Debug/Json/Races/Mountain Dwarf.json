@@ -1,0 +1,24 @@
+{
+  "raceName": "Mountain Dwarf",
+  "Description": "Tough and hardy smaller folk from the Mountains, who're strong and hardy, taller for a dwarf and accustomed to life in rugged terrain.",
+  "raceBonuses": [
+    2,
+    0,
+    2,
+    0,
+    0,
+    0
+  ],
+  "bonusNotes": "",
+  "size": "Medium",
+  "speed": 25,
+  "speedNotes": "Speed is not reduced by wearing heavy armour.",
+  "Vision": "Darkvision: Can see in dim light within 60ft as if it was blight light, and darkness as if it was dim light",
+  "raceAbilities": [
+    "Dwarven Resilience: You have advantage on saving throws against poison, and you have resistance against poison damage.",
+    "Dwarven Combat Training: You have proficiency with the battleaxe, handaxe, throwing hammer, and warhammer",
+    "Tool Proficiency: You gain Proficiency with the artisan's tools of your choice: smith's tools, brewer's supplies, or mason's tools",
+    "Stonecunning: Whenever you make an Intelligence(Histoy) Check related to the origin of stonework, you are considered proficient in the History Skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus",
+    "Dwarven Armour Training: You have proficiency with light and medium armour"
+  ]
+}

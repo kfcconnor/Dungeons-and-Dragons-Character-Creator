@@ -1,0 +1,18 @@
+{
+  "raceName": "Humans",
+  "Description": "The boring option",
+  "raceBonuses": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "bonusNotes": "",
+  "size": "Medium",
+  "speed": 30,
+  "speedNotes": "",
+  "Vision": "Standard: Need a Torch or magic to see in the Dark",
+  "raceAbilities": []
+}

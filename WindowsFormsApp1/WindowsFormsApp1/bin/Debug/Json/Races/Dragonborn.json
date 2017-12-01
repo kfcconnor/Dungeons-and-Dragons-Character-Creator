@@ -1,0 +1,22 @@
+{
+  "raceName": "Dragonborn",
+  "Description": "A combination of the best aspects of humanoids and dragons, who are proud of their heritage.",
+  "raceBonuses": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "bonusNotes": "",
+  "size": "Medium",
+  "speed": 30,
+  "speedNotes": "",
+  "Vision": "Standard: Need a Torch or magic to see in the Dark",
+  "raceAbilities": [
+    "Draconic Ancestry: Choose one type of dragon. Your breath weapon and damage are determined by the dragon type.",
+    "Breath Weapon: Draconic Ancestry determines size, shape, damage type, and type of saving throw. DC = 8 + Con Mod + Prof Bonus. Damage is 2d6 on a failed save with half damage on a successful one. (Damage becomes 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level) Can only be used once per short or long rest.",
+    "Damage Resistance: You have resistance to the damage type associated with your draonic ancestry."
+  ]
+}

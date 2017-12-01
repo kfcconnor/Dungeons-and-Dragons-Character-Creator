@@ -1,0 +1,50 @@
+{
+  "className": "Sorcerer",
+  "description": "A spellcaster who draws on inherent magic from a gift or bloodline",
+  "magicUser": true,
+  "hitdice": "d6",
+  "armourProf": [],
+  "weaponProf": [
+    "Daggers",
+    "Darts",
+    "Slings",
+    "Quarterstaffs",
+    "Light Crossbows"
+  ],
+  "toolProf": [],
+  "savingProf": [
+    "Constitution",
+    "Charisma"
+  ],
+  "skillChoices": 2,
+  "skillsToChoose": [
+    "Arcana",
+    "Deception",
+    "Insight",
+    "Intimidation",
+    "Persuasion",
+    "Religion"
+  ],
+  "EquipmentChoice1": [
+    "Light Crossbow and 20 Bolts",
+    "Any Simple Weapon"
+  ],
+  "EquipmentChoice2": [
+    "Component Pouch",
+    "Arcane Focus"
+  ],
+  "EquipmentChoice3": [
+    "Dungeoneer's Pack",
+    "Explorer's Pack"
+  ],
+  "EquipmentChoice4": [
+  ],
+  "otherEquipment": [
+    "Two Daggers"
+  ],
+  "startingClassAbilities": [],
+  "Subclass": [
+    "Draconic Bloodline",
+    "Wild Magic"
+  ]
+}

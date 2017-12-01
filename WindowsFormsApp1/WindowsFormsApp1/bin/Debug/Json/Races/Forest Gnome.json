@@ -1,0 +1,22 @@
+{
+  "raceName": "Forest Gnome",
+  "Description": "Gnomes of the forest, inherently quick with a natural knack for illusion and stealth",
+  "raceBonuses": [
+    0,
+    1,
+    0,
+    2,
+    0,
+    0
+  ],
+  "bonusNotes": "",
+  "size": "Small",
+  "speed": 25,
+  "speedNotes": "",
+  "Vision": "Darkvision: Can see in dim light within 60ft as if it was blight light, and darkness as if it was dim light",
+  "raceAbilities": [
+    "Gnome Cunning: You have advantage on all Int, Wis, and Cha Saving throws against magic",
+    "Natural Illusionist: You know the minor illusion cantrip. Int is the spellcasting ability for it.",
+    "Speak with Small Beasts: Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts. Forest gnomes love animals and often keep squirrels, badgers, rabbits, moles, woodpeckers, and other creatures as beloved pets"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "className": "Rogue",
+  "description": "A scoundrel who uses stealth and trickery to overcome obstacles and enemies.",
+  "magicUser": true,
+  "hitdice": "d8",
+  "armourProf": [
+    "Light Armour"
+  ],
+  "weaponProf": [
+    "Simple Weapons",
+    "Hand Crossbows",
+    "Longswords",
+    "Rapiers",
+    "Shortswords"
+  ],
+  "toolProf": [
+    "Thieves' Tools"
+  ],
+  "savingProf": [
+    "Dexterity",
+    "Intelligence"
+  ],
+  "skillChoices": 4,
+  "skillsToChoose": [
+    "Acrobatics",
+    "Athletics",
+    "Deception",
+    "Insight",
+    "Intimidation",
+    "Investigation",
+    "Perception",
+    "Performance",
+    "Persuasion",
+    "Sleight of Hands",
+    "Stealth"
+  ],
+  "EquipmentChoice1": [
+    "Rapier",
+    "Shortsword"
+  ],
+  "EquipmentChoice2": [
+
+    "Shortbow and quiver of 20 arrows",
+    "Shortsword"
+  ],
+  "EquipmentChoice3": [
+    "Burglar's Pack",
+    "Dungeoneer's Pack",
+    "Explorer's Pack"
+  ],
+  "EquipmentChoice4": [
+  ],
+  "otherEquipment": [
+    "Leather Armour",
+    "Two Daggers",
+    "Thieves' Tools"
+  ],
+  "startingClassAbilities": [],
+  "Subclass": [
+    "Thief",
+    "Assassin",
+    "Arcane Trickster"
+  ]
+}

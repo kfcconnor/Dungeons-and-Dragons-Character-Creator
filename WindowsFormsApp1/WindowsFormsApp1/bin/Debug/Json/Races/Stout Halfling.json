@@ -1,0 +1,23 @@
+{
+  "raceName": "Stout Halfling",
+  "Description": "Hardier then average and with some resistance to poison. Stout Halflings are also said to have dwarven blood.",
+  "raceBonuses": [
+    0,
+    2,
+    1,
+    0,
+    0,
+    0
+  ],
+  "bonusNotes": "",
+  "size": "Medium",
+  "speed": 25,
+  "speedNotes": "",
+  "Vision": "Standard: Need a Torch or magic to see in the Dark",
+  "raceAbilities": [
+    "Lucky: When you roll a 1 on an attack roll, ability check, or saving throw. You can reroll the die and must use the new roll.",
+    "Brace: You have advantage on saving throws against being frightened",
+    "Halfling Nimbleness: You can move through the space of any creature that is of a size larger then yours.",
+    "Stout Resilience: You have advantage on saving throws against Poison, and you have resistance against Poison Damage."
+  ]
+}

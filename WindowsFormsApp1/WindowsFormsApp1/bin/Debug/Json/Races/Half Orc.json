@@ -1,0 +1,22 @@
+{
+  "raceName": "Half Orc",
+  "Description": "Those who are half breeds of humans and orcs.",
+  "raceBonuses": [
+    2,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "bonusNotes": "",
+  "size": "Medium",
+  "speed": 30,
+  "speedNotes": "",
+  "Vision": "Darkvision: Can see in dim light within 60ft as if it was blight light, and darkness as if it was dim light",
+  "raceAbilities": [
+    "Menacing: You gain proficiency in the Intimidation Skill",
+    "Relentless Endurance: When you are reduced 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this more then once per long rest.",
+    "Savage Attacks: When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
+  ]
+}

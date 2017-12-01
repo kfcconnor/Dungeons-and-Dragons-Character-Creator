@@ -1,0 +1,50 @@
+{
+  "className": "Monk",
+  "description": "An master of martial arts, harnessing the power of the body in pursuit of physical and spiritual perfection.",
+  "magicUser": true,
+  "hitdice": "d8",
+  "armourProf": [],
+  "weaponProf": [
+    "Simple Weapons",
+    "Shortswords"
+  ],
+  "toolProf": [
+    "One Type of Artisan's Tools or One Musical Instrument"
+  ],
+  "savingProf": [
+    "Strength",
+    "Dexterity"
+  ],
+  "skillChoices": 2,
+  "skillsToChoose": [
+    "Acrobatics",
+    "Athletics",
+    "History",
+    "Insight",
+    "Religion",
+    "Stealth"
+  ],
+  "EquipmentChoice1": [
+    "Shortsword",
+    "Any Simple Weapon"
+  ],
+  "EquipmentChoice2": [
+    "Dungeoneer's Pack",
+    "Explorer's Pack"
+  ],
+  "EquipmentChoice3": [
+
+  ],
+  "EquipmentChoice4": [
+
+  ],
+  "otherEquipment": [
+    "10 Darts"
+  ],
+  "startingClassAbilities": [],
+  "Subclass": [
+    "Way of the Open Hand",
+    "Way of Shadow",
+    "Way of the Four Elements"
+  ]
+}

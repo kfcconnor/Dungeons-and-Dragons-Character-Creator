@@ -1,0 +1,158 @@
+{
+  "Abilities": [
+    {
+      "Name": "Rage",
+      "Class": "Barbarian",
+      "Level": 1,
+      "Description": "Can enter rage as a bonus action.\n This grants you:\n Advantage on Strength Checks and Strength Saving Throws\n When you make a melee weapon attack using Strength, you gain a bonus to the damage roll that increases as you level as a barbarian.\n You have resistance to bludgeoning, piercing, and slashing damage\n This lasts for 1 minute and ends early if you are knocked unconcious or don't attack anything for a turn. You also cannot cast any spells on concentrate on them while raging.\n You can rage 2 times per long rest at 1st level.",
+      "SubclassChoice": false,
+      "fightingStyleChoice" : false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels":[],
+      "upgraderepeatNotes":"NA"
+    },
+    {
+      "Name": "Unarmoured Defence (Barbarian)",
+      "Class": "Barbarian",
+      "Level": 1,
+      "Description": "When not wearing armour, your AC = 10 + your Dexterity Mod + your Constitution Modifier. You can still use a shield and get this AC.",
+      "SubclassChoice": false,
+      "fightingStyleChoice" : false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels":[],
+      "upgraderepeatNotes":"NA"
+    },
+    {
+      "Name": "Reckless Attack",
+      "Class":"Barbarian",
+      "Level": 2,
+      "Description": "You can attack recklessly, gaining advantage on melee attacks using strength this turn, but attackers also gain advantage on you until your next turn.",
+      "SubclassChoice": false,
+      "fightingStyleChoice" : false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels":[],
+      "upgraderepeatNotes":"NA"
+    },
+    {
+      "Name": "Danger Sense",
+      "Class":"Barbarian",
+      "Level": 2,
+      "Description": "You have advantage on Dex Saving throws against effects that you can see, such as traps and spells. You can't gain this benefit when blind, deaf or incapacitated.",
+      "SubclassChoice": false,
+      "fightingStyleChoice" : false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels":[],
+      "upgraderepeatNotes":"NA"
+    },
+    {
+      "Name": "Primal Path",
+      "Class":"Barbarian",
+      "Level":3,
+      "Description": "You can choose your subclass.",
+      "SubclassChoice": true,
+      "fightingStyleChoice" : false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels":[],
+      "upgraderepeatNotes":"NA"
+    },
+    {
+      "Name": "Ability Score Improvement",
+      "Class": "Barbarian",
+      "Level": 4,
+      "Description": "You can increase one ability score of your choice by 2, or two by 1. You cannot raise an attribute over 20 by doing this. You can also forfeit this to gain a feat.",
+      "SubclassChoice": false,
+      "fightingStyleChoice" : false,
+      "upgradesrepeatAtHigherLevel": true,
+      "upgraderepeatLevels":[8, 12, 16, 19],
+      "upgraderepeatNotes":"Repeat"
+    },
+    {
+      "Name": "Extra Attack",
+      "Class":"Barbarian",
+      "Level": 5,
+      "Description": "You can attack twice, instead of once whenever you take the Attack action on your turn.",
+      "SubclassChoice": false,
+      "fightingStyleChoice" : false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels":[],
+      "upgraderepeatNotes":"NA"
+    },
+    {
+      "Name": "Fast Movement",
+      "Class":"Barbarian",
+      "Level": 5,
+      "Description": "Your speed increases by 10ft while you aren't wearing heaby armour.",
+      "SubclassChoice": false,
+      "fightingStyleChoice" : false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels":[],
+      "upgraderepeatNotes":"NA"
+    },
+    {
+      "Name": "Feral Instinct",
+      "Class":"Barbarian",
+      "Level": 7,
+      "Description": "You gain Advantage on Initiative Rolls, you also can act normally when surpirsed, but only if you start with a rage.",
+      "SubclassChoice": false,
+      "fightingStyleChoice" : false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels":[],
+      "upgraderepeatNotes":"NA"
+    },
+    {
+      "Name": "Brutal Critical",
+      "Class":"Barbarian",
+      "Level": 9,
+      "Description": "You roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack, this increases to two additional dice at 13th level and three additional dice at 17th level",
+      "SubclassChoice": false,
+      "fightingStyleChoice" : false,
+      "upgradesrepeatAtHigherLevel": true,
+      "upgraderepeatLevels":[13,17],
+      "upgraderepeatNotes":"Upgrade"
+    },
+    {
+      "Name": "Relentless Rage",
+      "Class":"Barbarian",
+      "Level": 11,
+      "Description": "If you drop to 0 hit points while raging and don't die outright, you can make a DC10 Con Save. Droping to 1 hit point on a success. Each time you use this feature after the first, the DC increases by 5. When you finish a short or long rest, the DC resets to 10.",
+      "SubclassChoice": false,
+      "fightingStyleChoice" : false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels":[],
+      "upgraderepeatNotes":"NA"
+    },
+    {
+      "Name": "Persistent Rage",
+      "Class":"Barbarian",
+      "Level": 15,
+      "Description": "Rage will only end early if you fall unconscious or if you choose to end it.",
+      "SubclassChoice": false,
+      "fightingStyleChoice" : false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels":[],
+      "upgraderepeatNotes":"NA"
+    },
+    {
+      "Name": "Indomitable Might",
+      "Class":"Barbarian",
+      "Level": 18,
+      "Description": "If your total for a strength check is less then your Strength Score, you can use that in place of the total.",
+      "SubclassChoice": false,
+      "fightingStyleChoice" : false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels":[],
+      "upgraderepeatNotes":"NA"
+    },
+    {
+      "Name": "Primal Champion",
+      "Class":"Barbarian",
+      "Level": 20,
+      "Description": "Your Strength and Constitution scores increase by 4. Your Maximum for those scores at now 24.",
+      "SubclassChoice": false,
+      "fightingStyleChoice" : false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels":[],
+      "upgraderepeatNotes":"NA"
+    }
+  ]
+}

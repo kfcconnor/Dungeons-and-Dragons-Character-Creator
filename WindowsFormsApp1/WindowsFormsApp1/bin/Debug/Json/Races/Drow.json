@@ -1,0 +1,25 @@
+{
+  "raceName": "Drow",
+  "Description": "Dark Elves (Add proper Description later)",
+  "raceBonuses": [
+    0,
+    2,
+    0,
+    0,
+    0,
+    1
+  ],
+  "bonusNotes": "",
+  "size": "Medium",
+  "speed": 30,
+  "speedNotes": "",
+  "Vision": "Superior Darkvision: Can see in dim light within 120ft as if it was blight light, and darkness as if it was dim light",
+  "raceAbilities": [
+    "Keen Senses: You have Proficiency in the Perception Skill.",
+    "Fey Ancestry: You have advantage on saving throws against being charmed, and magic can't put you to sleep.",
+    "Trance: Elves don't need to sleep. Instead they meditate deeply, remaining semiconscious, for 4 hours a day. While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in such a way, you gain the same benefit that a human does from 8 hours sleep.",
+    "Sunlight Sensitivity: You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack or whatever you are trying to perceive is in direct sunlight.",
+    "Drow Magic: you know the dancing lights cantrip. When you reach 3rd level, you can cast the faerie fire spell once per day. At 5th level, you can also cast the darkness spell once per day. Charisma is your spellcasting ability for these spells.",
+    "Drow Weapon Training: You have proficiency with rapiers, shortswords, and hand crossbows."
+  ]
+}

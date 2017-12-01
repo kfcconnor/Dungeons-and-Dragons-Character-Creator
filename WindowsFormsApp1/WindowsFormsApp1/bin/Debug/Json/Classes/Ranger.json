@@ -1,0 +1,54 @@
+{
+  "className": "Ranger",
+  "description": "A warrior who uses martial prowess and nature magic to combat threats on the edges of civilization.",
+  "magicUser": true,
+  "hitdice": "d10",
+  "armourProf": [
+    "Light Armour",
+    "Medium Armour",
+    "Shields"
+  ],
+  "weaponProf": [
+    "Simple Weapons",
+    "Martial Weapons"
+  ],
+  "toolProf": [],
+  "savingProf": [
+    "Strength",
+    "Dexterity"
+  ],
+  "skillChoices": 3,
+  "skillsToChoose": [
+    "Animal Handling",
+    "Athletics",
+    "Insight",
+    "Investigation",
+    "Nature",
+    "Perception",
+    "Stealth",
+    "Survival"
+  ],
+  "EquipmentChoice1": [
+    "Scale Mail",
+    "Leather Mail"
+  ],
+  "EquipmentChoice2": [
+    "Two Shortswords",
+    "Two Simple Melee Weapons"
+  ],
+  "EquipmentChoice3": [
+    "Dungeoneer's Pack",
+    "Explorer's Pack"
+  ],
+  "EquipmentChoice4": [
+  ],
+  "otherEquipment": [
+    "Longbow",
+    "Quiver of 20 Arrows"
+  ],
+  "startingClassAbilities": [],
+  "Subclass": [
+    "Hunter",
+    "Beast Master"
+  ]
+}

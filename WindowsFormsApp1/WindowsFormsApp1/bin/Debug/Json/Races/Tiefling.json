@@ -1,0 +1,21 @@
+{
+  "raceName": "Tiefling",
+  "Description": "Those humans of bloodlines cursed by demons.",
+  "raceBonuses": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    2
+  ],
+  "bonusNotes": "",
+  "size": "Medium",
+  "speed": 30,
+  "speedNotes": "",
+  "Vision": "Darkvision: Can see in dim light within 60ft as if it was blight light, and darkness as if it was dim light",
+  "raceAbilities": [
+    "Hellish Resistance: You have resistance to fire damage",
+    "You learn the thaumaturgy cantrip. At level 3 you get Hellish rebuke once per day as a 2nd level spell. At 5th level you gain darkness. Cha is your spellcasting ability for these spells."
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "Abilities": [
+    {
+      "Name": "Fighting Style",
+      "Class": "Fighter",
+      "Level": 1,
+      "Description": "You can pick a fighting style for your class.",
+      "SubclassChoice": false,
+      "fightingStyleChoice": true,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    },
+    {
+      "Name": "Second Wind",
+      "Class": "Fighter",
+      "Level": 1,
+      "Description": "As a bonus action you can heal d10 + your fighter level once per short or long rest.",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    },
+    {
+      "Name": "Action Surge",
+      "Class": "Fighter",
+      "Level": 2,
+      "Description": "You can take one addition action on a turn, you must finish a short or long rest before doing it again. At 17th level, you can use it twice before a rest, but only once per turn.",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": true,
+      "upgraderepeatLevels": [17],
+      "upgraderepeatNotes": "Upgrade"
+    },
+    {
+      "Name": "Martial Archetype",
+      "Class": "Fighter",
+      "Level": 3,
+      "Description": "You can choose your subclass.",
+      "SubclassChoice": true,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    },
+    {
+      "Name": "Ability Score Improvement",
+      "Class": "Fighter",
+      "Level": 4,
+      "Description": "You can increase one ability score of your choice by 2, or two by 1. You cannot raise an attribute over 20 by doing this. You can also forfeit this to gain a feat.",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": true,
+      "upgraderepeatLevels": [6, 8, 12, 14, 16, 19],
+      "upgraderepeatNotes": "Repeat"
+    },
+    {
+      "Name": "Extra Attack",
+      "Class": "Fighter",
+      "Level": 5,
+      "Description": "You can attack twice when you make the attack action, at level 11 it becomes 3 times and at level 20 it becomes 4 times.",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": true,
+      "upgraderepeatLevels": [11, 20],
+      "upgraderepeatNotes": "Upgrade"
+    },
+    {
+      "Name": "Indomitable",
+      "Class": "Fighter",
+      "Level": 9,
+      "Description": "You can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can't use the feature again until you finish a long rest before using it again. At 13th level you can use it twice, at 17th level you can use it three times.",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": true,
+      "upgraderepeatLevels": [13, 17],
+      "upgraderepeatNotes": "Upgrade"
+    }
+  ]
+}

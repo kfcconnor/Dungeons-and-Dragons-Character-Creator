@@ -1,0 +1,53 @@
+{
+  "className": "Warlock",
+  "description": "A wielder of magic that is derived from a bargain with an extraplanar entity.",
+  "magicUser": true,
+  "hitdice": "d8",
+  "armourProf": [
+    "Light Armour"
+  ],
+  "weaponProf": [
+    "Simple Weapons"
+  ],
+  "toolProf": [],
+  "savingProf": [
+    "Wisdom",
+    "Charisma"
+  ],
+  "skillChoices": 2,
+  "skillsToChoose": [
+    "Arcana",
+    "Deception",
+    "History",
+    "Intimidation",
+    "Investigation",
+    "Nature",
+    "Religion"
+  ],
+  "EquipmentChoice1": [
+    "Light Crossbow and 20 Bolts",
+    "Any Simple Weapon"
+  ],
+  "EquipmentChoice2": [
+    "Component Pouch",
+    "Arcane Focus"
+  ],
+  "EquipmentChoice3": [
+    "Scholar's Pack",
+    "Dungeoneer's Pack"
+  ],
+  "EquipmentChoice4": [
+
+  ],
+  "otherEquipment": [
+    "Leather Armour",
+    "Any Simple Weapon",
+    "Two Daggers"
+  ],
+  "startingClassAbilities": [],
+  "Subclass": [
+    "Archfey",
+    "The Fiend",
+    "The Great Old One"
+  ]
+}

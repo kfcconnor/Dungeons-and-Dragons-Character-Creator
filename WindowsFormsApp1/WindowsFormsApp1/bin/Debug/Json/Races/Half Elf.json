@@ -1,0 +1,21 @@
+{
+  "raceName": "Half Elf",
+  "Description": "Those who are half breeds of humans and elves.",
+  "raceBonuses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+  ],
+  "bonusNotes": "Two other abilities by 1",
+  "size": "Medium",
+  "speed": 30,
+  "speedNotes": "",
+  "Vision": "Darkvision: Can see in dim light within 60ft as if it was blight light, and darkness as if it was dim light",
+  "raceAbilities": [
+    "Fey Ancestry: You have advantage on saving throws against being charmed, and magic can't put you to sleep.",
+    "Skill Versatility: You gain proficiency in two skills of your choice."
+  ]
+}

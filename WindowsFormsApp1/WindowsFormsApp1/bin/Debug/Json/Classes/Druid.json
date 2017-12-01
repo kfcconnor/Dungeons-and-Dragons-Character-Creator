@@ -1,0 +1,63 @@
+{
+  "className": "Druid",
+  "description": "A priest of the Old Faith, wielding the powers of nature - moonlight and plant growth, fire and lightning - and adopting animal forms.",
+  "magicUser": true,
+  "hitdice": "d8",
+  "armourProf": [
+    "Light Armour",
+    "Medium Armour (Non-Metal)",
+    "Shields (Non-Metal)"
+  ],
+  "weaponProf": [
+    "Clubs",
+    "Daggers",
+    "Darts",
+    "Javelins",
+    "Maces",
+    "Quarterstaffs",
+    "Scimitars",
+    "Sickles",
+    "Slings",
+    "Spears"
+  ],
+  "toolProf": [
+    "Herbalism Kit"
+  ],
+  "savingProf": [
+    "Intelligence",
+    "Wisdom"
+  ],
+  "skillChoices": 2,
+  "skillsToChoose": [
+    "Arcana",
+    "Animal Handling",
+    "Insight",
+    "Medicine",
+    "Nature",
+    "Perception",
+    "Religion",
+    "Survival"
+  ],
+  "EquipmentChoice1": [
+    "Wooden Shield",
+    "Any Simple Weapon"
+  ],
+  "EquipmentChoice2": [
+    "Scimitar",
+    "Any Simple Melee Weapon"
+  ],
+  "EquipmentChoice3": [
+  ],
+  "EquipmentChoice4": [
+  ],
+  "otherEquipment": [
+    "Leather Armour",
+    "Explorer's Pack",
+    "Druidic focus"
+  ],
+  "startingClassAbilities": [],
+  "Subclass": [
+    "Circle of the Land",
+    "Circle of the Moon"
+  ]
+}

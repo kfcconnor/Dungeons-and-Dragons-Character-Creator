@@ -1,0 +1,56 @@
+{
+  "className": "Wizard",
+  "description": "A scholarly magic-user capable of manipulating the structures of reality.",
+  "magicUser": true,
+  "hitdice": "d6",
+  "armourProf": [],
+  "weaponProf": [
+    "Daggers",
+    "Darts",
+    "Slings",
+    "Quarterstaffs",
+    "Light Crossbows"
+  ],
+  "toolProf": [],
+  "savingProf": [
+    "Intelligence",
+    "Wisdom"
+  ],
+  "skillChoices": 2,
+  "skillsToChoose": [
+    "Arcana",
+    "History",
+    "Insight",
+    "Investigation",
+    "Medicine",
+    "Religion"
+  ],
+  "EquipmentChoice1": [
+    "Quarterstaff",
+    "Dagger"
+  ],
+  "EquipmentChoice2": [
+    "Component Pouch",
+    "Arcane Focus"
+  ],
+  "EquipmentChoice3": [
+    "Scholar's Pack",
+    "Explorer's Pack"
+  ],
+  "EquipmentChoice4": [
+  ],
+  "otherEquipment": [
+    "Spellbook"
+  ],
+  "startingClassAbilities": [],
+  "Subclass": [
+    "Abjuration",
+    "Conjuration",
+    "Divination",
+    "Enchantment",
+    "Evocation",
+    "Illusion",
+    "Necromancy",
+    "Transmutation"
+  ]
+}

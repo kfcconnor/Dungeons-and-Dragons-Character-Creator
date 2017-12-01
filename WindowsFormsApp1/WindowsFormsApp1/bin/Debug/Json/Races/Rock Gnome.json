@@ -1,0 +1,22 @@
+{
+  "raceName": "Rock Gnome",
+  "Description": "The most common type of Gnome, they are naturally inventive and have hardiness beyond that of other gnomes.",
+  "raceBonuses": [
+    0,
+    0,
+    1,
+    2,
+    0,
+    0
+  ],
+  "bonusNotes": "",
+  "size": "Small",
+  "speed": 25,
+  "speedNotes": "",
+  "Vision": "Darkvision: Can see in dim light within 60ft as if it was blight light, and darkness as if it was dim light",
+  "raceAbilities": [
+    "Gnome Cunning: You have advantage on all Int, Wis, and Cha Saving throws against magic",
+    "Artificer's Lore: Whenever you make an Intelligence (History) check related to magic items, alchemical objects, or technological devices. You can add twice your prof bonus, instead of any prof bonus you normally apply.",
+    "Tinker: You have proficiency with artisan's tools (Tinker's tools). Using those tools, you can spend 1 hour and 10gp worth of materials to construct a tiny clockwork device from 3 options that works for 24 house unless you spend 1 hour to repair it, you can have 3 at a time and dismantle them to regain the supplies."
+  ]
+}

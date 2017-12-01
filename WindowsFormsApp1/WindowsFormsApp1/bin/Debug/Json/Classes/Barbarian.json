@@ -1,0 +1,48 @@
+{
+  "className": "Barbarian",
+  "description": "A fierce warrior of primitive background who can enter a battle rage.",
+  "magicUser": false,
+  "hitdice": "d12",
+  "armourProf": [
+    "Light Armour",
+    "Medium Armour",
+    "Shields"
+  ],
+  "weaponProf": [
+    "Simple Weapons",
+    "Martial Weapons"
+  ],
+  "toolProf": [],
+  "savingProf": [
+    "Strength",
+    "Constitution"
+  ],
+  "skillChoices": 2,
+  "skillsToChoose": [
+    "Animal Handling",
+    "Athletics",
+    "Intimidation",
+    "Nature",
+    "Perception",
+    "Survival"
+  ],
+  "EquipmentChoice1": [
+    "Greataxe",
+    "Any Martial Melee Weapon"
+  ],
+  "EquipmentChoice2": [
+    "Two Handaxes",
+    "Any Simple Weapon"
+  ],
+  "EquipmentChoice3": [],
+  "EquipmentChoice4": [],
+  "otherEquipment": [
+    "Explorer's Pack",
+    "Four Javelins"
+  ],
+  "startingClassAbilities": [],
+  "Subclass": [
+    "Path of the Berserker",
+    "Path of the Totem Warrior"
+  ]
+}

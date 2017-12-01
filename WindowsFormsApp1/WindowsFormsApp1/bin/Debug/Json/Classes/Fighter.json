@@ -1,0 +1,54 @@
+{
+  "className": "Fighter",
+  "description": "A master of martial combat, skilled with a variety of weapons and armour.",
+  "magicUser": true,
+  "hitdice": "d10",
+  "armourProf": [
+    "All Armour",
+    "Shields"
+  ],
+  "weaponProf": [
+    "Simple Weapons",
+    "Martial Weapons"
+  ],
+  "toolProf": [],
+  "savingProf": [
+    "Strength",
+    "Constitution"
+  ],
+  "skillChoices": 2,
+  "skillsToChoose": [
+    "Acrobatics",
+    "Animal Handling",
+    "Athletics",
+    "History",
+    "Insight",
+    "Intimidation",
+    "Perception",
+    "Survival"
+  ],
+  "EquipmentChoice1": [
+    "Chain Mail",
+    "Leather Armour, Longbow with 20 Arrows"
+  ],
+  "EquipmentChoice2": [
+    "A Martial Weapon and a Shield",
+    "Two Martial Weapons"
+  ],
+  "EquipmentChoice3": [
+    "Light Crossbow with 20 bolts",
+    "Two Handaxes"
+  ],
+  "EquipmentChoice4": [
+    "Dungeoneer's Pack",
+    "Explorer's Pack"
+  ],
+  "otherEquipment": [
+  ],
+  "startingClassAbilities": [],
+  "Subclass": [
+    "Champion",
+    "Battle Master",
+    "Eldritch Knight"
+  ]
+}

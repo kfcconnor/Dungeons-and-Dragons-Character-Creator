@@ -1,0 +1,70 @@
+{
+  "Abilities": [
+    {
+      "Name": "Spellcasting (Cleric)",
+      "Class": "Cleric",
+      "Level": 1,
+      "Description": "Clerics Gain 3 cantrips of their choice from the cleric spell list. They can also prepare a number of spells per day equal to your wisdom modifier + your cleric level (Min of one) These spells must be of a level for which you have spell slots. You start with 2 1st level spell slots. Your spellcasting ability is Wisdom.",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    },
+    {
+      "Name": "Divine Domain",
+      "Class": "Cleric",
+      "Level": 1,
+      "Description": "You Can Choose Your Subclass",
+      "SubclassChoice": true,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    },
+    {
+      "Name": "Channel Divinity",
+      "Class": "Cleric",
+      "Level": 2,
+      "Description": "You gain the ability to channel divine energy directly from your deity, You gain two Channel Divinities, Turn undead and one determined by subclass. You gain one use per rest, with one extra use per rest at 6th level and 18th level",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": true,
+      "upgraderepeatLevels": [6, 18],
+      "upgraderepeatNotes": "Upgrade"
+    },
+    {
+    "Name": "Ability Score Improvement",
+    "Class": "Cleric",
+    "Level": 4,
+    "Description": "You can increase one ability score of your choice by 2, or two by 1. You cannot raise an attribute over 20 by doing this. You can also forfeit this to gain a feat.",
+    "SubclassChoice": false,
+    "fightingStyleChoice" : false,
+    "upgradesrepeatAtHigherLevel": true,
+    "upgraderepeatLevels":[8, 12, 16, 19],
+    "upgraderepeatNotes":"Repeat"
+    },
+    {
+    "Name": "Destroy Undead",
+    "Class": "Cleric",
+    "Level": 5,
+    "Description": "If an undead fails its saving throw against turn undead and is below CR 1/2 or lower. At 8th level it's CR 1, 11th it's CR 2, 14th it's CR 3 and 17th it's CR 4",
+    "SubclassChoice": false,
+    "fightingStyleChoice" : false,
+    "upgradesrepeatAtHigherLevel": true,
+    "upgraderepeatLevels":[8, 11, 14, 17],
+    "upgraderepeatNotes":"Upgrade"
+    },
+    {
+    "Name": "Divine Intervention",
+    "Class": "Cleric",
+    "Level": 10,
+    "Description": "You can call on your deity to intervene on your behalf when your need is great. Using a action you describe the assistance you seek and roll a 1d100, if the roll is equal to or lower than your level, your deity intervenes (DM chooses the nature of it). If it succeeds then you cannot use it again, if not then you must make a long rest. At level 20, your call for intervention succeeds automatically.",
+    "SubclassChoice": false,
+    "fightingStyleChoice" : false,
+    "upgradesrepeatAtHigherLevel": true,
+    "upgraderepeatLevels":[20],
+    "upgraderepeatNotes":"Upgrade"
+    }
+  ]
+}
