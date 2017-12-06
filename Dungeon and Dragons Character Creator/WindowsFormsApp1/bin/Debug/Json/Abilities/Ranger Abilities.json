@@ -1,0 +1,147 @@
+{
+  "Abilities": [
+    {
+      "Name": "Favoured Enemy",
+      "Class": "Ranger",
+      "Level": 1,
+      "Description": "Choose one type of Favoured enemy: Aberrations, Beasts, Celestials, Constructs, Dragons, Elementals, fey, fiends, giants, monstrosities, oozes, plants, or undead. You can alternatively selected two races of humanoid as favoured enemies. You gain advantage on survival checks to track your favoured enemies as well as int checks to recall information about them. You also gain one langauge that is spoken by your favoured enemies. At 6th and 14th level you pick an other enemy and lanuage",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": true,
+      "upgraderepeatLevels": [6, 14],
+      "upgraderepeatNotes": "Repeat"
+    },
+    {
+      "Name": "Natural Explorer",
+      "Class": "Ranger",
+      "Level": 1,
+      "Description": "You pick one type of natural environment and are adept at traveling and surviving in such regions. Giving you the following benefits: \nDifficult Terrain doesn't slow your group's travel. \nYour group can't become lost execpt by magical means.\nEven when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger\nIf you are traveling alone, you can move stealthily at a normal pace.\nWhen you forage, you find twice as much food as you normally would.\nWhile tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.\nYou choose additional favoured terrain types at 6th and 10th level",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": true,
+      "upgraderepeatLevels": [6, 10],
+      "upgraderepeatNotes": "Repeat"
+    },
+    {
+      "Name": "Fighting Style",
+      "Class": "Ranger",
+      "Level": 2,
+      "Description": "You may select a fighting style.",
+      "SubclassChoice": false,
+      "fightingStyleChoice": true,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    },
+    {
+      "Name": "Spellcasting (Ranger)",
+      "Class": "Ranger",
+      "Level": 2,
+      "Description": "You can select 2 spells of the first level from the ranger spell list. Your spell casting modifier is Wisdom",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    },
+    {
+      "Name": "Ranger Archetype",
+      "Class": "Ranger",
+      "Level": 3,
+      "Description": "You may select a subclass",
+      "SubclassChoice": true,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    },
+    {
+      "Name": "Primeval Awareness",
+      "Class": "Ranger",
+      "Level": 3,
+      "Description": "You can use your action and expand one ranger spell slot to focus your awareness on the region around you. For one minute per level of the spell slot you expend, you can sense whether the following types of creatures are present within 1 mile of you (or 6 miles if in your favoured terrain): \nAberrations, Celestials, Dragons, Elementals, Fey, Fiends, and Undead\nThis feature doesn't reveal the creatures' location or number.",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    },
+    {
+      "Name": "Ability Score Improvement",
+      "Class": "Ranger",
+      "Level": 4,
+      "Description": "You can increase one ability score of your choice by 2, or two by 1. You cannot raise an attribute over 20 by doing this. You can also forfeit this to gain a feat.",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": true,
+      "upgraderepeatLevels": [8, 12, 16, 19],
+      "upgraderepeatNotes": "Repeat"
+    },
+    {
+      "Name": "Extra Attack",
+      "Class": "Ranger",
+      "Level": 5,
+      "Description": "You can attack twice, instead of once, whenever you take the attack action on your turn",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    },
+    {
+      "Name": "Land's Stride",
+      "Class": "Ranger",
+      "Level": 8,
+      "Description": "Moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damaage from them if they have thorns, spines, or a similar hazard. You also have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the entangle spell.",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    },
+    {
+      "Name": "Hide in Plain Sight",
+      "Class": "Ranger",
+      "Level": 10,
+      "Description": "You can spend 1 minute creating camoflage for yourself. You must have access to fresh mud, dirt, plants, soot, and other naturally occuring materials with which to create this camoflarge. Once you are camoflaged in this way, you can try to hide by pressing youself up against a solid surface such as a tree or wall, that is at least as tall and wide as you are. You gain a +10 to stealth checks as long as you remain there without moving or taking actions.",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    },
+    {
+      "Name": "Vanish",
+      "Class": "Ranger",
+      "Level": 14,
+      "Description": "You can use the hide action as a bonus action on your turn. Also, you can't be tracked by nonmagical means, unless you choose to leave a trial.",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    },
+    {
+      "Name": "Feral Senses",
+      "Class": "Ranger",
+      "Level": 18,
+      "Description": "You gain preternatural senses that help you fight creatures that you can't see. When you attack a creature you can't see, your inability to see it doesn't impose disadvantage on your attack rolls against it. You are also aware of the location of any invisibility within 30ft of you, provided that the creature isn't hidden from you and you aren't blinded or deafened.",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    },
+    {
+      "Name": "Foe Slayer",
+      "Class": "Ranger",
+      "Level": 20,
+      "Description": "Once on each of your turns, you can add your wisdom modifer to the attack roll or damage roll of an attack against one of your favoured enemies. You can choose to use this feature before or after the roll, but before effects of the roll are applied.",
+      "SubclassChoice": false,
+      "fightingStyleChoice": false,
+      "upgradesrepeatAtHigherLevel": false,
+      "upgraderepeatLevels": [],
+      "upgraderepeatNotes": "NA"
+    }
+  ]
+}

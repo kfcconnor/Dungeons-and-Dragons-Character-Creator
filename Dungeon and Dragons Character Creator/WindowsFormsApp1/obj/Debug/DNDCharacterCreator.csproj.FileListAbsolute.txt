@@ -1,0 +1,13 @@
+C:\Users\conno\Documents\GitHub\Dungeons-and-Dragons-Character-Creator\Dungeon and Dragons Character Creator\WindowsFormsApp1\bin\Debug\Dungeons and Dragons Character Creator.exe.config
+C:\Users\conno\Documents\GitHub\Dungeons-and-Dragons-Character-Creator\Dungeon and Dragons Character Creator\WindowsFormsApp1\bin\Debug\Dungeons and Dragons Character Creator.exe
+C:\Users\conno\Documents\GitHub\Dungeons-and-Dragons-Character-Creator\Dungeon and Dragons Character Creator\WindowsFormsApp1\bin\Debug\Dungeons and Dragons Character Creator.pdb
+C:\Users\conno\Documents\GitHub\Dungeons-and-Dragons-Character-Creator\Dungeon and Dragons Character Creator\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\conno\Documents\GitHub\Dungeons-and-Dragons-Character-Creator\Dungeon and Dragons Character Creator\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\conno\Documents\GitHub\Dungeons-and-Dragons-Character-Creator\Dungeon and Dragons Character Creator\WindowsFormsApp1\obj\Debug\DNDCharacterCreator.csprojResolveAssemblyReference.cache
+C:\Users\conno\Documents\GitHub\Dungeons-and-Dragons-Character-Creator\Dungeon and Dragons Character Creator\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\conno\Documents\GitHub\Dungeons-and-Dragons-Character-Creator\Dungeon and Dragons Character Creator\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.New_Character.resources
+C:\Users\conno\Documents\GitHub\Dungeons-and-Dragons-Character-Creator\Dungeon and Dragons Character Creator\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\conno\Documents\GitHub\Dungeons-and-Dragons-Character-Creator\Dungeon and Dragons Character Creator\WindowsFormsApp1\obj\Debug\DNDCharacterCreator.csproj.GenerateResource.Cache
+C:\Users\conno\Documents\GitHub\Dungeons-and-Dragons-Character-Creator\Dungeon and Dragons Character Creator\WindowsFormsApp1\obj\Debug\DNDCharacterCreator.csproj.CoreCompileInputs.cache
+C:\Users\conno\Documents\GitHub\Dungeons-and-Dragons-Character-Creator\Dungeon and Dragons Character Creator\WindowsFormsApp1\obj\Debug\Dungeons and Dragons Character Creator.exe
+C:\Users\conno\Documents\GitHub\Dungeons-and-Dragons-Character-Creator\Dungeon and Dragons Character Creator\WindowsFormsApp1\obj\Debug\Dungeons and Dragons Character Creator.pdb

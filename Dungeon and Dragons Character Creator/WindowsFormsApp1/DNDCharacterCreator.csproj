@@ -52,12 +52,6 @@
     <Compile Include="Ability.cs" />
     <Compile Include="Character.cs" />
     <Compile Include="Classes.cs" />
-    <Compile Include="New Character page 2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="New Character page 2.Designer.cs">
-      <DependentUpon>New Character page 2.cs</DependentUpon>
-    </Compile>
     <Compile Include="Race.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -75,9 +69,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="New Character page 2.resx">
-      <DependentUpon>New Character page 2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="New Character.resx">
       <DependentUpon>New Character.cs</DependentUpon>
