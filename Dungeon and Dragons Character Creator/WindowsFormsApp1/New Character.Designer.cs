@@ -65,6 +65,11 @@
             this.lblEquip = new System.Windows.Forms.Label();
             this.lbSub = new System.Windows.Forms.ListBox();
             this.lblSub = new System.Windows.Forms.Label();
+            this.lblSkillChoices = new System.Windows.Forms.Label();
+            this.clbSkillChoices = new System.Windows.Forms.CheckedListBox();
+            this.lblSelected = new System.Windows.Forms.Label();
+            this.btnSave = new System.Windows.Forms.Button();
+            this.btnBack = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblNewCharacter
@@ -457,7 +462,7 @@
             // 
             this.lbSub.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lbSub.FormattingEnabled = true;
-            this.lbSub.Location = new System.Drawing.Point(184, 19);
+            this.lbSub.Location = new System.Drawing.Point(9, 17);
             this.lbSub.Name = "lbSub";
             this.lbSub.Size = new System.Drawing.Size(120, 95);
             this.lbSub.TabIndex = 31;
@@ -467,17 +472,77 @@
             // 
             this.lblSub.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblSub.AutoSize = true;
-            this.lblSub.Location = new System.Drawing.Point(219, 3);
+            this.lblSub.Location = new System.Drawing.Point(12, 1);
             this.lblSub.Name = "lblSub";
             this.lblSub.Size = new System.Drawing.Size(50, 13);
             this.lblSub.TabIndex = 30;
             this.lblSub.Text = "Subclass";
             this.lblSub.Visible = false;
             // 
+            // lblSkillChoices
+            // 
+            this.lblSkillChoices.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lblSkillChoices.AutoSize = true;
+            this.lblSkillChoices.Location = new System.Drawing.Point(334, 1);
+            this.lblSkillChoices.Name = "lblSkillChoices";
+            this.lblSkillChoices.Size = new System.Drawing.Size(35, 13);
+            this.lblSkillChoices.TabIndex = 55;
+            this.lblSkillChoices.Text = "label1";
+            this.lblSkillChoices.Visible = false;
+            // 
+            // clbSkillChoices
+            // 
+            this.clbSkillChoices.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.clbSkillChoices.CheckOnClick = true;
+            this.clbSkillChoices.FormattingEnabled = true;
+            this.clbSkillChoices.Location = new System.Drawing.Point(387, 15);
+            this.clbSkillChoices.Name = "clbSkillChoices";
+            this.clbSkillChoices.Size = new System.Drawing.Size(120, 94);
+            this.clbSkillChoices.TabIndex = 56;
+            this.clbSkillChoices.Visible = false;
+            this.clbSkillChoices.SelectedIndexChanged += new System.EventHandler(this.clbSkillChoices_SelectedIndexChanged);
+            // 
+            // lblSelected
+            // 
+            this.lblSelected.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lblSelected.AutoSize = true;
+            this.lblSelected.Location = new System.Drawing.Point(384, 112);
+            this.lblSelected.Name = "lblSelected";
+            this.lblSelected.Size = new System.Drawing.Size(82, 13);
+            this.lblSelected.TabIndex = 57;
+            this.lblSelected.Text = "Skills Selected: ";
+            this.lblSelected.Visible = false;
+            // 
+            // btnSave
+            // 
+            this.btnSave.Location = new System.Drawing.Point(136, 79);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(75, 23);
+            this.btnSave.TabIndex = 58;
+            this.btnSave.Text = "Save";
+            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Visible = false;
+            // 
+            // btnBack
+            // 
+            this.btnBack.Location = new System.Drawing.Point(285, 79);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(75, 23);
+            this.btnBack.TabIndex = 59;
+            this.btnBack.Text = "Back";
+            this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.Visible = false;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            // 
             // New_Character
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.ClientSize = new System.Drawing.Size(514, 426);
+            this.Controls.Add(this.btnBack);
+            this.Controls.Add(this.btnSave);
+            this.Controls.Add(this.lblSelected);
+            this.Controls.Add(this.clbSkillChoices);
+            this.Controls.Add(this.lblSkillChoices);
             this.Controls.Add(this.lbEquip4);
             this.Controls.Add(this.lbEquip3);
             this.Controls.Add(this.lbEquip2);
@@ -562,5 +627,10 @@
         private System.Windows.Forms.Label lblEquip;
         private System.Windows.Forms.ListBox lbSub;
         private System.Windows.Forms.Label lblSub;
+        private System.Windows.Forms.Label lblSkillChoices;
+        private System.Windows.Forms.CheckedListBox clbSkillChoices;
+        private System.Windows.Forms.Label lblSelected;
+        private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.Button btnBack;
     }
 }

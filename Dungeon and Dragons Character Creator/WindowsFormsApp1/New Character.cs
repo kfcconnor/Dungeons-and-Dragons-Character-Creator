@@ -21,6 +21,7 @@ namespace WindowsFormsApp1
         Backgrounds backgrounds;
         Random rnd = new Random();
         bool page1Vis = false;
+        bool page2Vis = false;
         int[] stats = new int[6];
         int[] mod = new int[6];
         int[] previousBonus = new int[6];
@@ -359,9 +360,95 @@ namespace WindowsFormsApp1
 
         private void btnSaveTest_Click(object sender, EventArgs e)
         {
-            newChar = new Character(txtName.Text, stats, mod, races, classes, backgrounds);
-            toggleP1Vis();
-            toggleVisP2();
+            
+            bool[] CreationError = { false, false, false, false };
+            bool ErrorFlag = false;
+            string messageBoxText = "";
+            if (string.IsNullOrEmpty(txtName.Text))
+            {
+                CreationError[0] = true;
+                ErrorFlag = true;
+            }
+            if (string.IsNullOrEmpty(cboRace.Text))
+            {
+                CreationError[1] = true;
+                ErrorFlag = true;
+            }
+            if (string.IsNullOrEmpty(cboClass.Text))
+            {
+                CreationError[2] = true;
+                ErrorFlag = true;
+            }
+            if (string.IsNullOrEmpty(cboBackground.Text))
+            {
+                CreationError[3] = true;
+                ErrorFlag = true;
+            }
+            if (ErrorFlag)
+            {
+                int NumberOfErrors = 0;
+                int i = 1;
+                string caption = "Creation Error";
+                messageBoxText = "No ";
+                foreach (bool error in CreationError)
+                {
+                    if (error)
+                    {
+                        
+                        if(NumberOfErrors == 0)
+                        {
+                            switch (i)
+                            {
+                                case 1:
+                                    messageBoxText = messageBoxText + "Name";
+                                    break;
+                                case 2:
+                                    messageBoxText = messageBoxText + "Race";
+                                    break;
+                                case 3:
+                                    messageBoxText = messageBoxText + "Class";
+                                    break;
+                                case 4:
+                                    messageBoxText = messageBoxText + "Background";
+                                    break;
+                            }
+                            NumberOfErrors++;
+                        }
+                        else if(NumberOfErrors >= 1)
+                        {
+                            switch (i)
+                            {
+                                case 1:
+                                     messageBoxText = messageBoxText + ", Name";
+                                    break;
+                                case 2:
+                                     messageBoxText = messageBoxText + ", Race";
+                                    break;
+                                case 3:
+                                     messageBoxText = messageBoxText + ", Class";
+                                    break;
+                                case 4:
+                                     messageBoxText = messageBoxText + ", Background";
+                                    break;
+                            }
+                            NumberOfErrors++;
+                        }
+                        
+                    }
+                    i++;
+                }
+                messageBoxText = messageBoxText + " Selected.";
+                MessageBoxButtons buttons = MessageBoxButtons.OK;
+                MessageBoxIcon icon = MessageBoxIcon.Information;
+                MessageBox.Show(messageBoxText, caption, buttons, icon);
+            }
+            else
+            {
+                newChar = new Character(txtName.Text, stats, mod, races, classes, backgrounds);
+                toggleP1Vis();
+                toggleVisP2();
+            }
+
         }
 
         public void toggleP1Vis()
@@ -369,6 +456,7 @@ namespace WindowsFormsApp1
             if (page1Vis == false)
             {
                 lblNewCharacter.Visible = true;
+                lblNewCharacter.Text = "New Character";
                 lblName.Visible = true;
                 lblRace.Visible = true;
                 lblClass.Visible = true;
@@ -402,7 +490,7 @@ namespace WindowsFormsApp1
             }
             else
             {
-                lblNewCharacter.Visible = false;
+                
                 lblName.Visible = false;
                 lblRace.Visible = false;
                 lblClass.Visible = false;
@@ -438,60 +526,110 @@ namespace WindowsFormsApp1
         }
         public void toggleVisP2()
         {
-            
-            lblEquip.Visible = true;
-            lbEquip1.Visible = true;
-            
-            rtxtDescription.Clear();
-            
-            foreach(Ability ab in newChar.charClass.classAbilities.Ability)
+            if (page2Vis == false)
             {
-                if (ab.lvl == 1&& ab.subChoice == true)
+                lblNewCharacter.Text = newChar.charName;
+                lblEquip.Visible = true;
+                lbEquip1.Visible = true;
+                lbEquip1.Items.Clear();
+                lbEquip2.Items.Clear();
+                lbEquip3.Items.Clear();
+                lbEquip4.Items.Clear();
+                lblSkillChoices.Visible = true;
+                clbSkillChoices.Visible = true;
+                clbSkillChoices.Items.Clear();
+                lblSelected.Visible = true;
+                btnBack.Visible = true;
+                btnSave.Visible = true;
+                lbSub.Items.Clear();
+
+
+                rtxtDescription.Clear();
+                string skillchoice = newChar.charClass.skillChoices.ToString();
+                lblSkillChoices.Text = "Select " + skillchoice + " skills from the following list:";
+                foreach (Ability ab in newChar.charClass.classAbilities.Ability)
                 {
-                    lblSub.Visible = true;
-                    lbSub.Visible = true;
-                    foreach (string subclass in newChar.charClass.Subclass)
+                    if (ab.lvl == 1 && ab.subChoice == true)
                     {
-                        lbSub.Items.Add(subclass);
+                        lblSub.Visible = true;
+                        lbSub.Visible = true;
+                        foreach (string subclass in newChar.charClass.Subclass)
+                        {
+                            lbSub.Items.Add(subclass);
+                        }
+                    }
+                    else if (ab.lvl == 1 && ab.fightChoice == true)
+                    {
+                        lblSub.Visible = true;
+                        lbSub.Visible = true;
+                        lblSub.Text = "Fighting Style";
+                        //Add Fighting styles here when needed
                     }
                 }
-                else if (ab.lvl == 1 && ab.fightChoice == true)
+                foreach (string skill in newChar.charClass.skillsToChoose)
                 {
-                    lblSub.Visible = true;
-                    lbSub.Visible = true;
-                    lblSub.Text = "Fighting Style";
-                    //Add Fighting styles here when needed
+                    bool bSkill = false;
+                    foreach (string backSkill in newChar.charBack.skillProfs)
+                    {
+                        if (skill == backSkill)
+                        {
+                            bSkill = true;
+                        }
+                    }
+                    if (!bSkill)
+                    {
+                        clbSkillChoices.Items.Add(skill);
+                    }
                 }
-            }
-            foreach(string equip in newChar.charClass.EquipmentChoice1)
-            {
-                lbEquip1.Items.Add(equip);
-            }
-            if (newChar.charClass.EquipmentChoice2.Count() != 0)
-            {
-                lbEquip2.Visible = true;
-                foreach (string equip in newChar.charClass.EquipmentChoice2)
+                foreach (string equip in newChar.charClass.EquipmentChoice1)
                 {
-                    lbEquip2.Items.Add(equip);
+                    lbEquip1.Items.Add(equip);
                 }
-            }
-            if (newChar.charClass.EquipmentChoice3.Count() != 0)
-            {
-                lbEquip3.Visible = true;
-                foreach (string equip in newChar.charClass.EquipmentChoice3)
+                if (newChar.charClass.EquipmentChoice2.Count() != 0)
                 {
-                    lbEquip3.Items.Add(equip);
+                    lbEquip2.Visible = true;
+                    foreach (string equip in newChar.charClass.EquipmentChoice2)
+                    {
+                        lbEquip2.Items.Add(equip);
+                    }
                 }
-            }
-            if (newChar.charClass.EquipmentChoice4.Count() != 0)
-            {
-                lbEquip4.Visible = true;
-                foreach (string equip in newChar.charClass.EquipmentChoice4)
+                if (newChar.charClass.EquipmentChoice3.Count() != 0)
                 {
-                    lbEquip4.Items.Add(equip);
+                    lbEquip3.Visible = true;
+                    foreach (string equip in newChar.charClass.EquipmentChoice3)
+                    {
+                        lbEquip3.Items.Add(equip);
+                    }
                 }
+                if (newChar.charClass.EquipmentChoice4.Count() != 0)
+                {
+                    lbEquip4.Visible = true;
+                    foreach (string equip in newChar.charClass.EquipmentChoice4)
+                    {
+                        lbEquip4.Items.Add(equip);
+                    }
+                }
+                displayChar();
+                page2Vis = true;
             }
-            displayChar();
+            else
+            {
+                lblEquip.Visible = false;
+                lbEquip1.Visible = false;
+                lblSkillChoices.Visible = false;
+                clbSkillChoices.Visible = false;
+                lblSelected.Visible = false;
+                lblSub.Visible = false;
+                lbSub.Visible = false;
+                lbEquip2.Visible = false;
+                lbEquip3.Visible = false;
+                lbEquip4.Visible = false;
+                btnBack.Visible = false;
+                btnSave.Visible = false;
+                rtxtDescription.Clear();
+                page2Vis = false;
+
+            }
         }
         public void displayChar()
         {
@@ -565,6 +703,27 @@ namespace WindowsFormsApp1
             CharTxt = CharTxt + "\nBackground Feature: \n" + newChar.charBack.feature;
             
             rtxtDescription.Text = CharTxt;
+        }
+
+        private void clbSkillChoices_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            lblSelected.Text = "Skills Selected: " + clbSkillChoices.CheckedItems.Count + "Max: " + newChar.charClass.skillChoices;
+            if (clbSkillChoices.CheckedItems.Count > newChar.charClass.skillChoices)
+            {
+                int skillToUncheck = clbSkillChoices.SelectedIndex;
+                clbSkillChoices.SetItemCheckState(skillToUncheck, CheckState.Unchecked);
+                string messageBoxText = "Too Many Skills Selected.";
+                string caption = "Skill Error";
+                MessageBoxButtons buttons = MessageBoxButtons.OK;
+                MessageBoxIcon icon = MessageBoxIcon.Information;
+                MessageBox.Show(messageBoxText, caption, buttons, icon);
+            }
+        }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            toggleVisP2();
+            toggleP1Vis();
         }
     }
 }
